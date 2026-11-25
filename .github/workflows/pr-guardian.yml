@@ -1,4 +1,4 @@
-# Added and kept up to date by codetalk-23/pr-guardian. Edits here get overwritten.
+# Added and kept up to date by moos-momentum/pr-guardian. Edits here get overwritten.
 # Every PR gets a fresh AI code + security review; see the pr-guardian README.
 name: PR Guardian
 
@@ -12,5 +12,5 @@ permissions:
 
 jobs:
   review:
-    uses: codetalk-23/pr-guardian/.github/workflows/review.yml@main
+    uses: moos-momentum/pr-guardian/.github/workflows/review.yml@main
     secrets: inherit
